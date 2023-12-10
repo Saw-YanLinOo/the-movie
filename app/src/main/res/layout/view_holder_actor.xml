@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="180dp"
+    android:layout_marginStart="@dimen/margin_medium_2">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivActorImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/placeholder_actor"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_banner" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:tint="@color/colorAccent"
+        android:scaleType="centerCrop"
+        android:padding="0dp"
+        android:src="@drawable/ic_baseline_favorite_white_24dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/ibLikeButton"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_card_medium_2"
+        android:layout_marginStart="@dimen/margin_card_medium_2"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:tint="@color/colorAccent"
+        android:scaleType="centerCrop"
+        android:padding="0dp"
+        android:src="@drawable/ic_baseline_thumb_up_white_24dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvActorLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ibLikeButton"
+        android:text="You Like 15 Movies"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_card_medium_2"
+        android:layout_marginStart="@dimen/margin_small"
+        android:textSize="@dimen/text_smaller" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvActorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvActorLike"
+        android:layout_marginStart="@dimen/margin_card_medium_2"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:text="Leonardo Di Caprio"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_smaller"
+        android:textStyle="bold" />
+
+</RelativeLayout>
