@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TheMovie</string>
+    <string name="toolbar_title">Discover</string>
+    <string name="menu_search">Search</string>
+    <string name="iv_banner_text">The Wolverine 2013\nOfficial Review</string>
+    <string name="lbl_movie_name">Westworld</string>
+    <string name="lbl_movie_rating">9.0</string>
+    <string name="lbl_see_more"><u>SEE MORE</u></string>
+</resources>

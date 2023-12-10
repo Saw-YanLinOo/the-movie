@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivBannerImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_wolverine_image" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvBannerMovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/iv_banner_text"
+        android:elevation="4dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        >-->
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            app:icon="@drawable/ic_baseline_play_arrow_black_24dp"-->
+<!--            app:iconPadding="0dp"-->
+<!--            android:backgroundTint="@color/colorAccent"-->
+<!--            style="@style/Widget.MaterialComponents.Button.Icon"-->
+<!--            android:insetLeft="0dp"-->
+<!--            android:insetBottom="0dp"-->
+<!--            android:insetRight="0dp"-->
+<!--            android:insetTop="0dp"-->
+<!--            app:cornerRadius="24dp" />-->
+<!--    </FrameLayout>-->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="@dimen/margin_xxlarge"
+            android:layout_height="@dimen/margin_xxlarge"
+            android:layout_marginBottom="@dimen/margin_xlarge"
+            android:backgroundTint="@color/colorAccent"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_baseline_play_arrow_black_24dp"
+            app:iconGravity="end"
+            android:insetBottom="0dp"
+            android:insetTop="0dp"
+            app:cornerRadius="@dimen/margin_large"/>
+
+    </FrameLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_banner" />
+</RelativeLayout>
