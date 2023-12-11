@@ -23,6 +23,8 @@
     <dimen name="text_big_3x">80sp</dimen>
 
     <dimen name="height_banner">250dp</dimen>
+    <dimen name="height_collapsing_toolbar_movie_details">300dp</dimen>
+    <dimen name="width_release_year">72dp</dimen>
 
 
 </resources>

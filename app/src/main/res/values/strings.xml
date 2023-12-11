@@ -14,4 +14,7 @@
     <string name="lbl_show_case_movie_title">Passenger</string>
     <string name="lbl_more_actors"><u>MORE ACTORS</u></string>
     <string name="lbl_best_actors">BEST ACTORS</string>
+    <string name="lbl_movie_story">Lured to a Japan he hasn\'t seen since World War II, century-old mutant Wolverine (Hugh Jackman) finds himself in a shadowy realm of yakuza and samurai. Wolverine is pushed to his physical and emotional brink when he is forced to go on the run with a powerful industrialist\'s daughter (Tao Okamoto) and is confronted -- for the first time -- with the prospect of death. As he struggles to rediscover the hero within himself, he must grapple with powerful foes and the ghosts of his own haunted past.</string>
+    <string name="lbl_title_storyline">STORYLINE</string>
+    <string name="lbl_title_about">ABOUT FLIM</string>
 </resources>

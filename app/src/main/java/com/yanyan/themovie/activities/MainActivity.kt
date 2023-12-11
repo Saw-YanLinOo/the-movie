@@ -7,7 +7,6 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
 import com.yanyan.themovie.R
 import com.yanyan.themovie.adapters.BannerAdapter
-import com.yanyan.themovie.adapters.MovieAdapter
 import com.yanyan.themovie.adapters.ShowCaseMovieAdapter
 import com.yanyan.themovie.databinding.ActivityMainBinding
 import com.yanyan.themovie.delegates.ActorViewHolderDelegate
@@ -119,6 +118,7 @@ class MainActivity : AppCompatActivity(), BannerViewHolderDelegate, MovieViewHol
 
     override fun onTapMovieBanner() {
         Snackbar.make(window.decorView, "Tapped Movie Banner", Snackbar.LENGTH_LONG).show()
+        startActivity(MovieDetailActivity.newIntent(this))
     }
 
     override fun onTapMovieItem() {
