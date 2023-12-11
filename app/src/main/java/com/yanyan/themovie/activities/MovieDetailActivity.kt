@@ -29,6 +29,14 @@ class MovieDetailActivity : AppCompatActivity(), ActorViewHolderDelegate {
         setContentView(_binding.root)
 
         setUpViewPodInstance()
+
+        setUpListener()
+    }
+
+    private fun setUpListener() {
+        _binding.btnBack.setOnClickListener {
+            super.onBackPressed()
+        }
     }
 
     private fun setUpViewPodInstance() {
